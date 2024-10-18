@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHAT THE HELL!!!!</title>
+    <style>
+        * { padding: 0; margin: 0; box-sizing: border-box; }
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #ffffff; color: rgb(255, 255, 255); }
+        canvas { background: #ffffff; display: block; border: 6px solid #378bcf; }
+
+        img {
+            position: absolute;
+            margin: 0;
+            width: 250px;
+            padding: 10px 10px 10px 10px;
+            top: 100px;
+            bottom: 10000px;
+           }
+    </style>
+</head>
+<body>
+    <canvas id="pong" width="800" height="500"></canvas>
+    <img src="Blue_Archive_JP_logo.svg.png" alt="LOGO GG">
+
+    <script>
+        const canvas = document.getElementById("pong");
+        const ctx = canvas.getContext("2d");
+
+        // Create paddles (duh)
+        const user = { x: 0, y: canvas.height / 2 - 50, width: 10, height: 100, color: "WHITE", score: 0 };
+        const com = { x: canvas.width - 10, y: canvas.height / 2 - 50, width: 10, height: 100, color: "WHITE", score: 0 };
+
+        // Create testicles
+        const ball = { x: canvas.width / 2, y: canvas.height / 2, radius: 10, speed: 5, velocityX: 5, velocityY: 5, color: "WHITE" };
+
+        // Draw Rectangles (Paddles)
+        function drawRect(x, y, w, h, color) {
+            ctx.fillStyle = color;
+            ctx.fillRect(x, y, w, h);
+        }
+
+        // Draw testicles
+        function drawBall(x, y, r, color) {
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.arc(x, y, r, 0, Math.PI * 2, false);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        // Draw net
+        function drawNet() {
+            for (let i = 0; i <= canvas.height; i += 15) {
+                drawRect(canvas.width / 2 - 1, i, 2, 10, "WHITE");
+            }
+        }
+
+        // Draw Text
+        function drawText(text, x, y) {
+            ctx.fillStyle = "#378bcf";
+            ctx.font = "45px Arial";
+            ctx.fillText(text, x, y);
+        }
+
+        // Control paddle with cursor cuz better
+        canvas.addEventListener("mousemove", movePaddle);
+        function movePaddle(evt) {
+            let rect = canvas.getBoundingClientRect();
+            user.y = evt.clientY - rect.top - user.height / 2;
+        }
+
+        // Collision detectionater :3
+        function collision(b, p) {
+            p.top = p.y;
+            p.bottom = p.y + p.height;
+            p.left = p.x;
+            p.right = p.x + p.width;
+
+            b.top = b.y - b.radius;
+            b.bottom = b.y + b.radius;
+            b.left = b.x - b.radius;
+            b.right = b.x + b.radius;
+
+            return p.left < b.right && p.top < b.bottom && p.right > b.left && p.bottom > b.top;
+        }
+
+        // Reset ball
+        function resetBall() {
+            ball.x = canvas.width / 2;
+            ball.y = canvas.height / 2;
+            ball.speed = 5;
+            ball.velocityX = -ball.velocityX;
+        }
+
+        // Update: move paddles, move ball, check collision
+        function update() {
+            // Move ball
+            ball.x += ball.velocityX;
+            ball.y += ball.velocityY;
+
+            // Computer Paddle movement
+            com.y += ((ball.y - (com.y + com.height / 2))) * 0.1;
+
+            // Check if ball hits top or bottom wall
+            if (ball.y - ball.radius < 0 || ball.y + ball.radius > canvas.height) {
+                ball.velocityY = -ball.velocityY;
+            }
+
+            // Determine wheter computer or player scores (nah, i'd win)
+            if (ball.x - ball.radius < 0) {
+                com.score++;
+                resetBall();
+            } else if (ball.x + ball.radius > canvas.width) {
+                user.score++;
+                resetBall();
+            }
+
+            // Check paddle collisions
+            let player = (ball.x < canvas.width / 2) ? user : com;
+            if (collision(ball, player)) {
+                let collidePoint = ball.y - (player.y + player.height / 2);
+                collidePoint = collidePoint / (player.height / 2);
+
+                let angleRad = (Math.PI / 4) * collidePoint;
+                let direction = (ball.x < canvas.width / 2) ? 1 : -1;
+                ball.velocityX = direction * ball.speed * Math.cos(angleRad);
+                ball.velocityY = ball.speed * Math.sin(angleRad);
+
+                ball.speed += 0.5;
+            }
+        }
+
+        // Render: draw everything
+        function render() {
+            drawRect(0, 0, canvas.width, canvas.height, "#000"); // Clear canvas
+            drawNet();
+            drawText(user.score, canvas.width / 4, canvas.height / 5);
+            drawText(com.score, 3 * canvas.width / 4, canvas.height / 5);
+            drawRect(user.x, user.y, user.width, user.height, user.color);
+            drawRect(com.x, com.y, com.width, com.height, com.color);
+            drawBall(ball.x, ball.y, ball.radius, ball.color);
+        }
+
+        // Game Loop
+        function game() {
+            update();
+            render();
+        }
+
+        // Loop every 1000/60 ms (~60 fps)
+        const framePerSecond = 60;
+        setInterval(game, 1000 / framePerSecond);
+    </script>
+</body>
+</html>

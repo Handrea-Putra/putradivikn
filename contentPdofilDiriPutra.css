@@ -1,0 +1,1257 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #131c9b;
+    overflow: hidden;
+    position: relative;
+}
+
+@media only screen and (min-width: 1915px) {
+.tempatLagu {
+    position: absolute;
+}
+div.videowaktempatnya {
+    padding: 190px 959px ;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    border-radius: 0px 0px 60px 60px;
+}
+div.tempatVideo {
+    background-color: #00000000;
+    position: absolute;
+    z-index: -1;
+    border-radius: 0px 0px 60px 60px ;
+    width: 1918px;
+    height: 474px;
+}
+div.tempatVideo video {
+    opacity: 50%;
+    position: absolute;
+    border-radius: 0px 0px 60px 60px;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 50px 60px rgb(25, 31, 105);
+    transform: translate( -50%, -70%);
+    image-rendering: auto;
+}
+
+.tempatFoto-background {
+    position: absolute;
+    z-index: -1;
+}
+.tempatFoto-background, img.background-latar-belakang {
+    width: 100%;
+    z-index: -100;
+    opacity: 70%;
+    transform: translate( -0px, 150px);
+}
+div.memperjelasgambar1 {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding: 1000px 1000px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.tempatFoto {
+    position: absolute;
+}
+.tempatFoto img.hoshinolah {
+    width: 200px;
+    margin: 450px 0px 0px 500px;
+}
+
+h1.judluVideoTengah {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    position: absolute;
+    z-index: 100;
+    font-size: 70px;
+    margin: 179px 0px 0px 700px;
+    text-shadow: 1px 3px 6px rgb(255, 255, 255);
+}
+h1.judluVideoTengah2 {
+    color: rgb(121, 139, 179);
+    text-shadow: 5px 1px 10px rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 20px;
+    position: absolute;
+    z-index: 98;
+    font-size: 160px;
+    margin: 120px 0px 0px 320px;
+    opacity: 30%;
+}
+hr.ningaaaaa {
+    border-top: 2px solid rgba(255, 255, 255, 0.603);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: #ffffff48;
+    position: absolute;
+    z-index: 97;
+    padding: 3px 0px 0px 750px;
+    margin: 310px 0px 0px 576px;
+}
+a.takanashi-hoshino {
+    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000;
+    position: absolute;
+    color: white;
+    text-decoration: double;
+    margin: 320px 0px 0px 785px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    transition: all;
+    transition: 900ms;
+}
+a.takanashi-hoshino:hover, a.takanashi-hoshino:active {
+    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000;
+    color: white;
+    margin: 320px 0px 0px 778px;
+    font-weight: 610;
+    font-size: 17px;
+    text-shadow: 0px 2px 5px white;
+}
+p.biodata-takanashi-hoshino3 {
+    position: absolute;
+    color: white;
+    font-size: 9px;
+    margin: 360px 0px 0px 900px;
+    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
+
+div.contentPertamaHome-1 nav {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 3px 1738px 10px 0px;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 0px 18px 18px rgba(9, 10, 83, 0.479);
+}
+div.logocontentPertama-1 img {
+    width: 190px;
+    padding: 10px 0px 0px 70px;
+}
+div.navigasicontentPertama-1, ul {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    margin: 32px 0px 0px 1550px;
+    transition: all;
+    transition-duration: 700ms;
+}
+div.navigasicontentPertama-1, ul:hover {
+    margin: 30px 0px 0px 1500px;
+}
+div.navigasicontentPertama-1, ul li {
+    padding: 10px;
+}
+div.navigasicontentPertama-1, ul li a.link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 0px 15px 0px;
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+    transition: all;
+    transition-duration: 700ms;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+div.navigasicontentPertama-1, ul li a.link:hover {
+    padding: 0px 25px 15px 20px;
+    color: #1a4d7e;
+    font-weight: 700;
+    font-size: 23px;
+    border-bottom: 1px solid rgb(52, 103, 245);
+}
+
+.imgfootersbrowggah img.ggwpimg {
+    margin: 890px 0px 0px 10px;
+    position: absolute;
+    width: 50px;
+    z-index: 50;
+    transition: all;
+    transition-duration: 700ms;
+    padding: 5px 5px;
+    background-color: rgb(255, 250, 250);
+    border-radius: 15px;
+    box-shadow: 0px -5px 20px rgb(119, 119, 119);
+}
+.imgfootersbrowggah img.ggwpimg:hover {
+    width: 80px;
+    margin: 860px 0px 0px 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -5px 20px rgb(182, 182, 182);
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.imgfootersbrowggah img.instagramgua {
+    margin: 890px 0px 0px 70px;
+    position: absolute;
+    width: 50px;
+    z-index: 49;
+    transition: all;
+    transition-duration: 700ms;
+    padding: 9px 9px;
+    background-color: rgb(255, 250, 250);
+    border-radius: 15px;
+    box-shadow: 0px -5px 20px rgb(119, 119, 119);
+}
+.imgfootersbrowggah img.instagramgua:hover {
+    width: 80px;
+    margin: 860px 0px 0px 70px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -5px 20px rgb(182, 182, 182);
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+div.sidefuncion-1 {
+    position: absolute;
+    padding: 350px 68px;
+    box-shadow: 0px 0px 40px rgba(3, 1, 24, 0.849);
+    z-index: -100;
+    background: rgba(9, 6, 48, 0.5);
+    margin: 300px 0px 0px 0px;
+}
+div.refleksi-biru-putih {
+    position: absolute;
+    padding: 68px 69px;
+    background: rgb(9, 36, 92);
+    box-shadow: 10px 0px 40px rgb(4, 0, 56);
+    border-radius: 0px 0px 20px 50px;
+    z-index: -30;
+    margin: 330px 0px 0px 0px;
+}
+
+div.img-list-side img.list-img {
+    position: absolute;
+    width: 40px;
+    margin: 400px 0px 0px 50px;
+    opacity: 50%;
+    transition: all;
+    transition: 600ms;
+}
+div.img-list-side img.list-img:hover {
+    position: absolute;
+    width: 45px;
+    margin: 395px 0px 0px 48px;
+    opacity: 80%;
+}
+
+h2.sapaaanhallo {
+    position: absolute;
+    margin: 395px 0px 0px 200px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 70%;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.719)
+}
+h1.myname1 {
+    position: absolute;
+    margin: 430px 0px 0px 198px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.719);
+}
+h1.imandtypinfg {
+    position: absolute;
+    margin: 498px 0px 0px 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 60%;
+    width: 100%;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.719)
+}
+h2.typing-text {
+    position: absolute;
+    margin: 499px 0px 0px 310px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 70%;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    text-shadow: 0px 0px 10px rgba(99, 97, 201, 0.719)
+}
+.typing-text span {
+    position: absolute;
+}
+.typing-text span::before {
+    content: "Art Drawing";
+    color: #6a72e4d7;
+    animation: words 20s infinite;
+}
+.typing-text span::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid rgb(255, 255, 255);
+    right: -8;
+    animation: cursor 0.6s infinite; 
+}
+@keyframes cursor {
+    to {
+        border-left: 3px solid #525ce2d7;
+    }
+}
+@keyframes words {
+    0%, 20% {
+        content: "Newbie Programing";
+    }
+    21%, 40% {
+        content: "Otaku";
+    }
+    41%, 60% {
+        content: "Student in SMKN 3 Tangerang ";
+    }
+    61%, 80% {
+        content: "Art Drawing";
+    }
+    81%, 100% {
+        content: "Anime ";
+    }
+}
+div.garishayalan {
+    position: absolute;
+    padding: 65px 0.8px;
+    margin: 410px 0px 0px 180px;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+
+div.content-text {
+    position: absolute;
+    width: 1100px;
+    height: 380px;
+    margin: 580px 0px 0px 200px;
+    overflow: hidden;
+    border: 1px solid #cccccc00;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 10;
+}
+div.content-text-bawahnya {
+    position: absolute;
+    z-index: 20000000;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    color: white;
+    transform: translateX(-20%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.content-text-bawahnya.active {
+    opacity: 0.7;
+    transform: translateX(0);
+}
+.content.prev {
+    opacity: 1;
+    transform: translate(20%);
+}
+div.content1-1 h4 {
+    font-weight: 100;
+    font-size: 15px;
+}
+div.umurgua {
+    font-size: 15px;
+}
+div.kebawah-dikit {
+    padding: 10px 0px 0px 0px;
+}
+div.bawahanoy {
+    padding: 10px 0px 0px 0px;
+}
+div.sekian {
+    padding: 40px 0px 0px 0px;
+}
+div.kiranyasekilan {
+    font-size: 12px;
+}
+h6.malas {
+    font-weight: 300;
+}
+img.hoshino-cantiknyooooo {
+    position: absolute;
+    width: 250px;
+    z-index: 1;
+}
+div.ukuran-hshino {
+    image-rendering: crisp-edges 10px;
+    position: absolute;
+    margin: -323px 0px 0px 460px;
+    rotate: 8deg;
+    opacity: 70%;
+    filter: drop-shadow(-5px -20px 20px rgba(223, 168, 228, 0.692));
+}
+img.hoshino-gabut {
+    position: absolute;
+    width: 190px;
+    z-index: 1;
+}
+div.ukuranhoshinogabut {
+    image-rendering: crisp-edges 10px;
+    position: absolute;
+    margin: -300px 0px 0px 560px;
+    opacity: 85%;
+    filter: drop-shadow(5px 0px 10px rgba(223, 168, 228, 0.692));
+}
+img.ayanghoshino {
+    position: absolute;
+    width: 410px;
+    z-index: 1;
+}
+div.akusukahoshino {
+    image-rendering: crisp-edges 10px;
+    position: absolute;
+    margin: -300px 0px 0px 620px;
+    opacity: 70%;
+    filter: drop-shadow(5px 10px 30px rgba(223, 168, 228, 0.829));
+}
+.h2-brow {
+    text-shadow: 0px 0px 0px white;
+}
+h4.awlanyasayaragu {
+    font-weight: 300;
+}
+h4.hobbygua-cuy {
+    font-weight: 300;
+}
+h4.gaksukasaya {
+    font-weight: 300;
+}
+h4.sesuatu-kecerobohan-yang-gak-disuka {
+    font-weight: 300;
+}
+h4.malas-malas {
+    font-weight: 300;
+}
+h4.hobby-dalamsprots {
+    font-weight: 300;
+}
+a.linkcisco {
+    color: white;
+    text-decoration: none;
+}
+img.shiroko-musim-kawin {
+    position: absolute;
+    width: 130px;
+    margin: 760px 0px 0px 0px;
+    filter: drop-shadow(0px 0px 7px rgba(241, 241, 241, 0.692));
+    opacity: 80%;
+    z-index: -100;
+}
+
+button.sebelumnyalah {
+    position: absolute;
+    opacity: 60%;
+    margin: 565px 0px 0px 11px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(45, 113, 168);
+    transition: all;
+    transition-duration: 500ms;
+
+}
+button.sebelumnyalah:hover {
+    background-color: rgb(118, 198, 223);
+    color: rgba(0, 0, 0, 0.747);
+}
+button.berikutnyalah:hover {
+    background-color: rgb(118, 198, 223);
+    color: rgba(0, 0, 0, 0.747);
+    
+}
+button.berikutnyalah {
+    position: absolute;
+    margin: 510px 0px 0px 11px;
+    padding: 10px 12.5px 10px 12.5px;
+    opacity: 60%;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(45, 113, 168);
+    transition: all;
+    transition-duration: 500ms;
+}
+
+div.belakangajaakumah {
+    position: absolute;
+    z-index: -1000;
+    margin: 330px 0px 0px 1780px;
+    box-shadow: -90px 0px 70px white;
+    padding: 330px 80px;
+    background-color: white;
+}
+div.garishayalankanan {
+    position: absolute;
+    z-index: -100;
+    margin: 409px 0px 0px 1880px;
+    padding: 48px 1px;
+    box-shadow: 0px 0px 10px white;
+    background-color: white;
+}
+div.dotmerah {
+    position: absolute;
+    z-index: 50;
+    padding: 10px;
+    background-color: rgba(243, 53, 53, 0.849);
+    box-shadow: 0px 0px 20px rgba(207, 27, 27, 0.795);
+    margin: 398px 0px 0px 1846px;
+    border-radius: 50px;
+}
+
+h3.newstext1 {
+    position: absolute;
+    font-size: 70px;
+    z-index: 50;
+    margin: 380px 0px 0px 1650px;
+    color: white;
+    opacity: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 20px white;
+}
+h3.newstext1-sub {
+    position: absolute;
+    font-size: 40px;
+    z-index: 40;
+    margin: 460px 0px 0px 1560px;
+    color: rgb(248, 59, 26);
+    opacity: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 20px rgb(214, 51, 51);
+}
+img.ba-sitevideo {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    transform: translate( -50%, -70%);
+    margin: 750px 0px 0px 1750px;
+    border-radius: 60px 60px 60px 60px;
+    object-fit: cover;
+    opacity: 80%;
+    transition: all;
+    transition-duration: 500ms;
+    border: 15px solid rgba(201, 51, 51, 0.548);
+    box-shadow: 0px 0px 20px rgba(253, 109, 109, 0.452);
+}
+img.ba-sitevideo:hover {
+    position: absolute;
+    opacity: 90%;
+    width: 230px;
+    transform: translate( -50%, -70%);
+    margin: 770px 0px 0px 1750px;
+    border-radius: 80px 80px 80px 80px;
+    border: 20px solid rgba(255, 69, 69, 0.795);
+    box-shadow: 0px 0px 40px rgba(207, 27, 27, 0.795);
+}
+img.ba-siteimg {
+    position: absolute;
+    z-index: 10;
+    width: 180px;
+    transform: translate( -40%, -70%);
+    margin: 840px 0px 0px 1520px;
+    border-radius: 60px 60px 60px 60px;
+    object-fit: cover;
+    opacity: 80%;
+    transition: all;
+    transition-duration: 500ms;
+    border: 18px solid rgba(201, 51, 51, 0.548);
+    box-shadow: 0px 0px 20px rgba(253, 109, 109, 0.452);
+}
+img.ba-siteimg:hover {
+    position: absolute;
+    opacity: 90%;
+    width: 200px;
+    transform: translate( -50%, -70%);
+    margin: 840px 0px 0px 1520px;
+    border-radius: 80px 80px 80px 80px;
+    border: 20px solid rgba(255, 69, 69, 0.795);
+    box-shadow: 0px 0px 40px rgba(207, 27, 27, 0.685);
+}
+img.ba-siteimg2 {
+    position: absolute;
+    z-index: 10;
+    width: 170px;
+    transform: translate( -40%, -70%);
+    margin: 600px 0px 0px 1440px;
+    border-radius: 60px 60px 60px 60px;
+    object-fit: cover;
+    opacity: 80%;
+    transition: all;
+    transition-duration: 500ms;
+    border: 16px solid rgba(201, 51, 51, 0.548);
+    box-shadow: 0px 0px 20px rgba(253, 109, 109, 0.452);
+}
+img.ba-siteimg2:hover {
+    position: absolute;
+    opacity: 90%;
+    width: 190px;
+    transform: translate( -50%, -70%);
+    margin: 600px 0px 0px 1460px;
+    border-radius: 60px 60px 60px 60px;
+    border: 18px solid rgba(255, 69, 69, 0.795);
+    box-shadow: 0px 0px 40px rgba(207, 27, 27, 0.685);
+}
+}
+
+@media only screen and (max-width: 1367px) {
+.tempatLagu {
+    position: absolute;
+}
+div.videowaktempatnya {
+    padding: 136px 686px ;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    border-radius: 0px 0px 60px 60px;
+}
+div.tempatVideo {
+    background-color: #00000000;
+    position: absolute;
+    z-index: -1;
+    border-radius: 0px 0px 60px 60px ;
+    width: 1373px;
+    height: 340px;
+}
+div.tempatVideo video {
+    opacity: 50%;
+    position: absolute;
+    border-radius: 0px 0px 60px 60px;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 50px 60px rgb(25, 31, 105);
+    transform: translate( -50%, -70%);
+    image-rendering: auto;
+}
+
+.tempatFoto-background {
+    position: absolute;
+    z-index: -1;
+}
+.tempatFoto-background, img.background-latar-belakang {
+    width: 100%;
+    z-index: -100;
+    opacity: 70%;
+    transform: translate( 0px, 120px);
+}
+div.memperjelasgambar1 {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding: 1000px 1000px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.tempatFoto {
+    position: absolute;
+}
+.tempatFoto img.hoshinolah {
+    width: 200px;
+    margin: 450px 0px 0px 500px;
+}
+
+h1.judluVideoTengah {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    position: absolute;
+    z-index: 100;
+    font-size: 40px;
+    margin: 125px 0px 0px 550px;
+    text-shadow: 1px 3px 6px rgb(255, 255, 255);
+}
+h1.judluVideoTengah2 {
+    color: rgb(121, 139, 179);
+    text-shadow: 5px 1px 10px rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 20px;
+    position: absolute;
+    z-index: 98;
+    font-size: 100px;
+    margin: 80px 0px 0px 250px;
+    opacity: 30%;
+}
+hr.ningaaaaa {
+    border-top: 2px solid rgba(255, 255, 255, 0.603);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: #ffffff48;
+    position: absolute;
+    z-index: 97;
+    padding: 1px 0px 0px 420px;
+    margin: 205px 0px 0px 488px;
+}
+a.takanashi-hoshino {
+    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000;
+    position: absolute;
+    color: white;
+    text-decoration: double;
+    margin: 216px 0px 0px 584px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    transition: all;
+    transition: 900ms;
+}
+a.takanashi-hoshino:hover, a.takanashi-hoshino:active {
+    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000;
+    color: white;
+    margin: 216px 0px 0px 578px;
+    font-weight: 610;
+    font-size: 13px;
+    text-shadow: 0px 2px 5px white;
+}
+p.biodata-takanashi-hoshino3 {
+    position: absolute;
+    color: white;
+    font-size: 8px;
+    margin: 258px 0px 0px 658px;
+    z-index: 10000000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
+
+div.contentPertamaHome-1 nav {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 3px 1213px 5px 0px;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 0px 18px 18px rgba(9, 10, 83, 0.479);
+}
+div.logocontentPertama-1 img {
+    width: 150px;
+    padding: 10px 0px 0px 70px;
+}
+div.navigasicontentPertama-1, ul {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    margin: 18px 0px 0px 1100px;
+    transition: all;
+    transition-duration: 700ms;
+}
+div.navigasicontentPertama-1, ul:hover {
+    margin: 15px 0px 0px 1050px;
+}
+div.navigasicontentPertama-1, ul li {
+    padding: 10px;
+}
+div.navigasicontentPertama-1, ul li a.link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 0px 15px 0px;
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+    transition: all;
+    transition-duration: 700ms;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+div.navigasicontentPertama-1, ul li a.link:hover {
+    padding: 0px 25px 15px 20px;
+    color: #1a4d7e;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(52, 103, 245);
+}
+
+.imgfootersbrowggah img.ggwpimg {
+    margin: 590px 0px 0px 5px;
+    position: absolute;
+    width: 40px;
+    z-index: 50;
+    transition: all;
+    transition-duration: 700ms;
+    padding: 5px 5px;
+    background-color: rgb(255, 250, 250);
+    border-radius: 15px;
+    box-shadow: 0px -5px 20px rgb(119, 119, 119);
+}
+.imgfootersbrowggah img.ggwpimg:hover {
+    width: 60px;
+    margin: 565px 0px 0px 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -5px 20px rgb(182, 182, 182);
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.imgfootersbrowggah img.instagramgua {
+    margin: 590px 0px 0px 50px;
+    position: absolute;
+    width: 40px;
+    z-index: 49;
+    transition: all;
+    transition-duration: 700ms;
+    padding: 9px 9px;
+    background-color: rgb(255, 250, 250);
+    border-radius: 15px;
+    box-shadow: 0px -5px 20px rgb(119, 119, 119);
+}
+.imgfootersbrowggah img.instagramgua:hover {
+    width: 70px;
+    margin: 565px 0px 0px 48px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -5px 20px rgb(182, 182, 182);
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+div.sidefuncion-1 {
+    position: absolute;
+    padding: 350px 49px;
+    box-shadow: 0px 0px 40px rgba(3, 1, 24, 0.849);
+    z-index: -100;
+    background: rgba(9, 6, 48, 0.5);
+    margin: 300px 0px 0px 0px;
+}
+div.refleksi-biru-putih {
+    position: absolute;
+    padding: 68px 51px;
+    background: rgb(9, 36, 92);
+    box-shadow: 10px 0px 40px rgb(4, 0, 56);
+    border-radius: 0px 0px 20px 40px;
+    z-index: -30;
+    margin: 220px 0px 0px 0px;
+}
+
+div.img-list-side img.list-img {
+    position: absolute;
+    width: 34px;
+    margin: 297px 0px 0px 35px;
+    opacity: 50%;
+    transition: all;
+    transition: 600ms;
+}
+div.img-list-side img.list-img:hover {
+    position: absolute;
+    width: 40px;
+    margin: 293px 0px 0px 33px;
+    opacity: 80%;
+}
+
+h2.sapaaanhallo {
+    position: absolute;
+    margin: 290px 0px 0px 160px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 70%;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.719)
+}
+h1.myname1 {
+    position: absolute;
+    margin: 307px 0px 0px 158px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 80%;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.719);
+}
+h1.imandtypinfg {
+    position: absolute;
+    margin: 348px 0px 0px 160px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 80%;
+    width: 100%;
+    font-size: 23px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.719)
+}
+h2.typing-text {
+    position: absolute;
+    margin: 349px 0px 0px 222px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 70%;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    text-shadow: 0px 0px 10px rgba(99, 97, 201, 0.719)
+}
+.typing-text span {
+    position: absolute;
+}
+.typing-text span::before {
+    content: "Art Drawing";
+    color: #6a72e4d7;
+    animation: words 20s infinite;
+}
+.typing-text span::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid rgb(255, 255, 255);
+    right: -8;
+    animation: cursor 0.6s infinite; 
+}
+@keyframes cursor {
+    to {
+        border-left: 3px solid #525ce2d7;
+    }
+}
+@keyframes words {
+    0%, 20% {
+        content: "Newbie Programing";
+    }
+    21%, 40% {
+        content: "Otaku";
+    }
+    41%, 60% {
+        content: "Student in SMKN 3 Tangerang ";
+    }
+    61%, 80% {
+        content: "Art Drawing";
+    }
+    81%, 100% {
+        content: "Anime ";
+    }
+}
+div.garishayalan {
+    position: absolute;
+    padding: 37px 0.8px;
+    margin: 300px 0px 0px 150px;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+
+div.content-text {
+    position: absolute;
+    width: 1100px;
+    height: 380px;
+    margin: 390px 0px 0px 160px;
+    overflow: hidden;
+    border: 1px solid #cccccc00;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 10;
+}
+div.content-text-bawahnya {
+    position: absolute;
+    z-index: 20000000;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    color: white;
+    transform: translateX(-20%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.content-text-bawahnya.active {
+    opacity: 0.7;
+    transform: translateX(0);
+}
+.content.prev {
+    opacity: 1;
+    transform: translate(20%);
+}
+div.h2-brow h2{
+    font-size: 18px;
+}
+div.umurgua h3 {
+    font-size: 13px;
+}
+div.content1-1 h4 {
+    font-weight: 100;
+    font-size: 11px;
+}
+div.kebawah-dikit {
+    padding: 10px 0px 0px 0px;
+}
+div.bawahanoy {
+    padding: 10px 0px 0px 0px;
+}
+div.sekian {
+    padding: 40px 0px 0px 0px;
+}
+div.kiranyasekilan h3{
+    font-size: 12px;
+    margin: 21px 0px 0px 0px;
+}
+h6.malas {
+    font-weight: 300;
+    margin: -25px 0pc;
+}
+img.hoshino-cantiknyooooo {
+    position: absolute;
+    width: 160px;
+    z-index: 1;
+}
+div.ukuran-hshino {
+    image-rendering: crisp-edges 10px;
+    position: absolute;
+    margin: -223px 0px 0px 320px;
+    rotate: 8deg;
+    opacity: 70%;
+    filter: drop-shadow(-5px -20px 20px rgba(223, 168, 228, 0.692));
+}
+img.hoshino-gabut {
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+div.ukuranhoshinogabut {
+    image-rendering: crisp-edges 10px;
+    position: absolute;
+    margin: -210px 0px 0px 390px;
+    opacity: 85%;
+    filter: drop-shadow(5px 0px 10px rgba(223, 168, 228, 0.692));
+}
+img.ayanghoshino {
+    position: absolute;
+    width: 320px;
+    z-index: 1;
+}
+div.akusukahoshino {
+    image-rendering: crisp-edges 10px;
+    position: absolute;
+    margin: -230px 0px 0px 420px;
+    opacity: 70%;
+    filter: drop-shadow(5px 10px 30px rgba(223, 168, 228, 0.829));
+}
+div.kesukaan-brow h2.kesukaan-gua {
+    font-size: 18px;
+}
+div.h4-awalkesukaan h4.awlanyasayaragu {
+    font-size: 11px;
+}
+h4.hobbygua-cuy {
+    font-size: 11px;
+}
+h4.hobby-dalamsprots {
+    font-size: 11px;
+}
+h4.sesuatu-kecerobohan-yang-gak-disuka {
+    font-size: 11px;
+}
+h4.malas-malas {
+    font-size: 11px;
+}
+h4.gaksukasaya {
+    font-size: 11px;
+}
+div.yangsayagaksuka h2.tidaksuka {
+    font-size: 18px;
+}
+.h2-brow {
+    text-shadow: 0px 0px 0px white;
+}
+h4.awlanyasayaragu {
+    font-weight: 300;
+}
+h4.hobbygua-cuy {
+    font-weight: 300;
+}
+h4.gaksukasaya {
+    font-weight: 300;
+}
+h4.sesuatu-kecerobohan-yang-gak-disuka {
+    font-weight: 300;
+}
+h4.malas-malas {
+    font-weight: 300;
+}
+h4.hobby-dalamsprots {
+    font-weight: 300;
+}
+a.linkcisco {
+    color: white;
+    text-decoration: none;
+}
+img.shiroko-musim-kawin {
+    position: absolute;
+    width: 90px;
+    margin: 490px 0px 0px 3px;
+    filter: drop-shadow(0px 0px 7px rgba(241, 241, 241, 0.692));
+    opacity: 80%;
+    z-index: -100;
+}
+
+button.sebelumnyalah {
+    position: absolute;
+    font-size: 9px;
+    opacity: 60%;
+    margin: 380px 0px 0px 11px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(45, 113, 168);
+    transition: all;
+    transition-duration: 500ms;
+
+}
+button.sebelumnyalah:hover {
+    background-color: rgb(118, 198, 223);
+    color: rgba(0, 0, 0, 0.747);
+}
+button.berikutnyalah:hover {
+    background-color: rgb(118, 198, 223);
+    color: rgba(0, 0, 0, 0.747);
+    
+}
+button.berikutnyalah {
+    position: absolute;
+    font-size: 9px;
+    margin: 425px 0px 0px 11px;
+    padding: 10px 12.5px 10px 12.5px;
+    opacity: 60%;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(45, 113, 168);
+    transition: all;
+    transition-duration: 500ms;
+}
+
+div.belakangajaakumah {
+    position: absolute;
+    z-index: -1000;
+    margin: 200px 0px 0px 1350px;
+    box-shadow: -90px 0px 70px white;
+    padding: 330px 80px;
+    background-color: white;
+}
+div.garishayalankanan {
+    position: absolute;
+    z-index: -100;
+    margin: 294px 0px 0px 1350px;
+    padding: 27px 1px;
+    box-shadow: 0px 0px 10px white;
+    background-color: white;
+}
+div.dotmerah {
+    position: absolute;
+    z-index: 50;
+    opacity: 80%;
+    padding: 7px;
+    background-color: rgba(243, 53, 53, 0.849);
+    box-shadow: 0px 0px 20px rgba(207, 27, 27, 0.795);
+    margin: 286px 0px 0px 1330px;
+    border-radius: 50px;
+}
+
+h3.newstext1 {
+    position: absolute;
+    font-size: 40px;
+    z-index: 50;
+    margin: 280px 0px 0px 1220px;
+    color: white;
+    opacity: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 20px white;
+}
+h3.newstext1-sub {
+    position: absolute;
+    font-size: 24px;
+    z-index: 40;
+    margin: 320px 0px 0px 1160px;
+    color: rgb(248, 59, 26);
+    opacity: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 20px rgb(214, 51, 51);
+}
+img.ba-sitevideo {
+    position: absolute;
+    z-index: 10;
+    width: 150px;
+    transform: translate( -50%, -70%);
+    margin: 530px 0px 0px 1270px;
+    border-radius: 50px;
+    object-fit: cover;
+    opacity: 80%;
+    transition: all;
+    transition-duration: 500ms;
+    border: 15px solid rgba(201, 51, 51, 0.548);
+    box-shadow: 0px 0px 20px rgba(253, 109, 109, 0.452);
+}
+img.ba-sitevideo:hover {
+    position: absolute;
+    opacity: 90%;
+    width: 170px;
+    transform: translate( -50%, -70%);
+    margin: 540px 0px 0px 1260px;
+    border-radius: 60px;
+    border: 15px solid rgba(255, 69, 69, 0.795);
+    box-shadow: 0px 0px 40px rgba(207, 27, 27, 0.795);
+}
+img.ba-siteimg {
+    position: absolute;
+    z-index: 10;
+    width: 110px;
+    transform: translate( -40%, -70%);
+    margin: 576px 0px 0px 1115px;
+    border-radius: 40px;
+    object-fit: cover;
+    opacity: 80%;
+    transition: all;
+    transition-duration: 500ms;
+    border: 14px solid rgba(201, 51, 51, 0.548);
+    box-shadow: 0px 0px 20px rgba(253, 109, 109, 0.452);
+}
+img.ba-siteimg:hover {
+    position: absolute;
+    opacity: 90%;
+    width: 140px;
+    transform: translate( -50%, -70%);
+    margin: 576px 0px 0px 1115px;
+    border-radius: 50px;
+    border: 18px solid rgba(255, 69, 69, 0.795);
+    box-shadow: 0px 0px 40px rgba(207, 27, 27, 0.685);
+}
+img.ba-siteimg2 {
+    position: absolute;
+    z-index: 10;
+    width: 110px;
+    transform: translate( -40%, -70%);
+    margin: 426px 0px 0px 1080px;
+    border-radius: 40px;
+    object-fit: cover;
+    opacity: 80%;
+    transition: all;
+    transition-duration: 500ms;
+    border: 11px solid rgba(201, 51, 51, 0.548);
+    box-shadow: 0px 0px 20px rgba(253, 109, 109, 0.452);
+}
+img.ba-siteimg2:hover {
+    position: absolute;
+    opacity: 90%;
+    width: 145px;
+    transform: translate( -50%, -70%);
+    margin: 420px 0px 0px 1080px;
+    border-radius: 50px;
+    border: 15px solid rgba(255, 69, 69, 0.795);
+    box-shadow: 0px 0px 40px rgba(207, 27, 27, 0.685);
+}
+}
